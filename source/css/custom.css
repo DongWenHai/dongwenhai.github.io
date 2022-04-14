@@ -1,0 +1,30 @@
+@font-face {
+    font-family: Candy;
+    src: url(/font/Candy.ttf);
+    font-display: swap
+}
+
+@font-face {
+    font-family: OldEnglish;
+    src: url(/font/OldEnglish.TTF);
+    font-display: swap
+}
+
+@font-face {
+    font-family: PingFang-SC;
+    src: url(/font/PingFang-SC.otf);
+    font-display: swap
+}
+
+body{
+    font-family: PingFang-SC;
+}
+
+/* 首页封面 */
+#page-header #site-title {
+    font-family: OldEnglish;
+}
+#page-header #site-subtitle{
+    font-family: Candy;
+    margin-top:10px;
+}
