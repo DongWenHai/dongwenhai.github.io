@@ -10,16 +10,6 @@
     font-display: swap
 }
 
-@font-face {
-    font-family: PingFang-SC;
-    src: url(/font/PingFang-SC.otf);
-    font-display: swap
-}
-
-body{
-    font-family: PingFang-SC;
-}
-
 /* 首页封面 */
 #page-header #site-title {
     font-family: OldEnglish;
