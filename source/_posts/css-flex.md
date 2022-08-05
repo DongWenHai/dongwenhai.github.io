@@ -7,8 +7,8 @@
         - css
     keywords: "flex布局"
     description: 'flex布局'
-    cover: /images/css-flex.png
-    top_img: /images/css-flex.png
+    cover: /images/css-flex.jpg
+    top_img: /images/css-flex.jpg
 ---
 
 # flex布局下文字超出隐藏失效解决办法

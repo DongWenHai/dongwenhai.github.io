@@ -10,8 +10,8 @@
         - web
     keywords: 前端网页常见兼容问题
     description: '前端网页常见兼容问题'
-    cover: /images/web-hack.png
-    top_img: /images/web-hack.png
+    cover: /images/web-hack.jpg
+    top_img: /images/web-hack.jpg
 ---
 
 ## 1.Chrome 中文界面下默认会将小于 12px 的文本强制按照 12px 显示,   

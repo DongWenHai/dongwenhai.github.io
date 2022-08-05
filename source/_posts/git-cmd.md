@@ -7,8 +7,8 @@
         - git
     keywords: "git常用命令"
     description: 'git常用命令'
-    cover: /images/git-cmd.png
-    top_img: /images/git-cmd.png
+    cover: /images/git-cmd.jpg
+    top_img: /images/git-cmd.jpg
 ---
 
 #git常用命令

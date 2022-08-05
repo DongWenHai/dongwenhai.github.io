@@ -8,8 +8,8 @@
         - react
     keywords: react
     description: 'react首次打包白屏'
-    cover: /images/react-problem.png
-    top_img: /images/react-problem.png
+    cover: /images/react-problem.jpg
+    top_img: /images/react-problem.jpg
 ---
 
 # react首次打包白屏

@@ -7,8 +7,8 @@
         - css
     keywords: "BFC的理解"
     description: 'BFC的理解'
-    cover: /images/css-bfc.png
-    top_img: /images/css-bfc.png
+    cover: /images/css-bfc.jpg
+    top_img: /images/css-bfc.jpg
 ---
 
 # 概念

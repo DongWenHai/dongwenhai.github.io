@@ -8,8 +8,8 @@
         - react
     keywords: react
     description: 'create-react-app环境配置'
-    cover: /images/react-environment.png
-    top_img: /images/react-environment.png
+    cover: /images/react-environment.jpg
+    top_img: /images/react-environment.jpg
 ---
 
 ## 一、使用eject(npm run eject)暴露出webpack配置
@@ -34,15 +34,16 @@ npm install @craco/craco
 具体使用方法参考官方文档: [https://github.com/gsoft-inc/craco](https://github.com/gsoft-inc/craco)
 
 **关于使用sass配置全局scss文件说明:**
-在网上很多人都是这种写法(使用**data**),让我郁闷半天，查看webpack文档才发现这个是webpack4写法，webpack5中sass-loader在实际的文件之前要添加的 Sass / SCSS 代码使用**additionalData**
+在网上很多人都是这种写法(使用**data**),让我郁闷半天，由于sass-loader的版本不同，这里可能会报错，不同的版本对应的关键字不一样
 
 ```javascript
 module.exports = {
     style: {
         sass: {
             loaderOptions:{
-                data: `@import "~@/variable.scss";`,//webpack4写法
-                additionalData: `@import "~@/variable.scss";`//webpack5写法
+                data: `@import "~@/variable.scss";`,//sass-loader v8-中，关键字为 “ data ”
+                prependData: `@import "~@/variable.scss";`//sass-loader v8中，关键字为 “ prependData ”
+                additionalData: `@import "~@/variable.scss";`//sass-loader v10+中，关键字为 “ additionalData ”
             }
         }
     }

@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: Candy;
     src: url(/font/Candy.ttf);
     font-display: swap
@@ -8,7 +8,7 @@
     font-family: OldEnglish;
     src: url(/font/OldEnglish.TTF);
     font-display: swap
-}
+} */
 
 /* 首页封面 */
 #page-header #site-title {
@@ -17,4 +17,31 @@
 #page-header #site-subtitle{
     font-family: Candy;
     margin-top:10px;
+}
+
+.my-tools-item{
+    float:left;
+    width:100%;
+    max-width:200px;
+    min-height:80px;
+    margin:10px;
+    padding:10px 20px;
+    background:#fff;
+    border-radius: 4px;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0.3);
+    font-size:20px;
+    color:blue;
+    line-height:1;
+}
+.my-tools-name{
+    font-size:20px;
+    display:block;
+    
+}
+.my-tools-desc{
+    font-size:12px;
+    color:rgb(107, 107, 107);
+}
+[data-theme="dark"] .my-tools-item{
+    background:gray;
 }

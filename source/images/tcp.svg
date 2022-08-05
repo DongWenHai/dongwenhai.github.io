@@ -1,0 +1,72 @@
+<svg width="610" height="562" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_69">
+   <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="24" id="svg_1" y="48" x="88" stroke-width="0" stroke="#000" fill="#000000">客户端</text>
+   <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="24" id="svg_2" y="47" x="452" stroke-width="0" stroke="#000" fill="#000000">服务端</text>
+   <line id="svg_3" y2="231" x2="119" y1="78" x1="121" stroke="#000" fill="none"/>
+   <line id="svg_4" y2="231" x2="492" y1="69" x1="491" stroke="#000" fill="none"/>
+   <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" id="svg_8" y="89" x="148" stroke-width="0" stroke="#000" fill="#000000">SYN=1 seq=x</text>
+   <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" id="svg_17" y="98" x="46" stroke-width="0" stroke="#000" fill="#000000">SYN_SEND</text>
+   <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" id="svg_18" y="96" x="504" stroke-width="0" stroke="#000" fill="#000000">SYN_RCVD</text>
+   <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" id="svg_19" y="123" x="503" stroke-width="0" stroke="#000" fill="#000000">SYN_RCVD</text>
+   <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" id="svg_20" y="185" x="28" stroke-width="0" stroke="#000" fill="#000000">ESTABLISHED</text>
+   <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" id="svg_21" y="225" x="22" stroke-width="0" stroke="#000" fill="#000000">ESTABLISHED</text>
+   <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" id="svg_22" y="231" x="509" stroke-width="0" stroke="#000" fill="#000000">ESTABLISH</text>
+   <g id="svg_23">
+    <line id="svg_5" y2="98" x2="463" y1="98" x1="139" stroke="#000" fill="none"/>
+    <line id="svg_6" y2="98" x2="464" y1="84" x1="452" stroke="#000" fill="none"/>
+    <line id="svg_7" y2="98" x2="463" y1="114" x1="452" stroke="#000" fill="none"/>
+   </g>
+   <g transform="rotate(12 301.5 150.212)" id="svg_24">
+    <line id="svg_9" y2="220.42337" x2="145" y1="84.42337" x1="458" stroke="#000" fill="none"/>
+    <text transform="rotate(-24 281.531 138.923)" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" id="svg_12" y="144.42337" x="158" stroke-width="0" stroke="#000" fill="#000000">SYN=1 ACK=1 seq=y 确认号ack=x+1</text>
+   </g>
+   <g id="svg_25">
+    <line id="svg_10" y2="188" x2="137" y1="200" x1="156" stroke="#000" fill="none"/>
+    <line id="svg_11" y2="189" x2="138" y1="169" x1="145" stroke="#000" fill="none"/>
+   </g>
+   <line id="svg_13" y2="228" x2="469" y1="225" x1="148" stroke="#000" fill="none"/>
+   <line id="svg_14" y2="232" x2="471" y1="211" x1="456" stroke="#000" fill="none"/>
+   <line id="svg_15" y2="229" x2="470" y1="251" x1="455" stroke="#000" fill="none"/>
+   <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" id="svg_16" y="215" x="178" stroke-width="0" stroke="#000" fill="#000000">ACK=1 seq=x+1 确认号ack=y+1</text>
+   <path d="m119,241c-1,0 -1,1 -1,2c0,1 0,2 0,3c0,1 -0.38269,2.07611 0,3c0.5412,1.30655 1,2 1,4c0,1 0,3 0,4c0,1 0,2 0,3l1,0" id="svg_27" stroke-width="0" stroke="#000" fill="none"/>
+   <path d="m494,241c0,2 0.49347,3.87857 1,7c0.16016,0.98709 0,2 0,4c0,1 0.4588,1.69345 1,3c1.14807,2.77164 1,5 1,6c0,1 0,2 0,3c0,1 0,2 0,3l0,1" id="svg_28" stroke-width="0" stroke="#000" fill="none"/>
+   <line id="svg_29" y2="537" x2="120" y1="315" x1="120" stroke="#000" fill="none"/>
+   <line id="svg_30" y2="531" x2="499" y1="300" x1="495" stroke="#000" fill="none"/>
+   <line id="svg_31" y2="329" x2="481" y1="331" x1="138" stroke="#000" fill="none"/>
+   <line id="svg_32" y2="328" x2="482" y1="320" x1="474" stroke="#000" fill="none"/>
+   <line id="svg_33" y2="332" x2="479" y1="342" x1="472" stroke="#000" fill="none"/>
+   <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" id="svg_34" y="318" x="153" stroke-width="0" stroke="#000" fill="#000000">SYN=1 FIN=1 seq=u</text>
+   <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" id="svg_35" y="331" x="30" stroke-width="0" stroke="#000" fill="#000000">FIN_WAIT_1</text>
+   <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" id="svg_36" y="326" x="505" stroke-width="0" stroke="#000" fill="#000000">CLOSE_WAIT</text>
+   <line id="svg_37" y2="405" x2="138" y1="364" x1="474" stroke="#000" fill="none"/>
+   <line id="svg_38" y2="405" x2="137" y1="394" x1="144" stroke="#000" fill="none"/>
+   <line id="svg_39" y2="408" x2="135" y1="418" x1="150" stroke="#000" fill="none"/>
+   <text transform="rotate(-7 275.266 377.5)" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" id="svg_40" y="383" x="151" stroke-width="0" stroke="#000" fill="#000000">SYN=1 ACK=1 seq=v 确认号ack=u+1</text>
+   <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" id="svg_41" y="356" x="507" stroke-width="0" stroke="#000" fill="#000000">CLOSE_ACK</text>
+   <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" id="svg_42" y="400" x="27" stroke-width="0" stroke="#000" fill="#000000">FIN_WAIT_2</text>
+   <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" stroke-width="0" id="svg_47" y="421" x="512" stroke="#000" fill="#000000">数据传输</text>
+   <line id="svg_49" y2="424" x2="476" y1="428" x1="142" stroke="#000" fill="none"/>
+   <line id="svg_50" y2="423" x2="478" y1="408" x1="464" stroke="#000" fill="none"/>
+   <line id="svg_51" y2="421" x2="477" y1="437" x1="463" stroke="#000" fill="none"/>
+   <line id="svg_52" y2="426" x2="137" y1="445" x1="147" stroke="#000" fill="none"/>
+   <line id="svg_54" y2="429" x2="137" y1="420" x1="153" stroke="#000" fill="none"/>
+   <line id="svg_55" y2="493" x2="130" y1="457" x1="479" stroke="#000" fill="none"/>
+   <line id="svg_56" y2="493" x2="131" y1="480" x1="143" stroke="#000" fill="none"/>
+   <line id="svg_57" y2="493" x2="131" y1="505" x1="144" stroke="#000" fill="none"/>
+   <text transform="rotate(-6 306.953 465.5)" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" stroke-width="0" id="svg_58" y="471" x="158" stroke="#000" fill="#000000">SYN=1 FIN=1 ACK=1 seq=w 确认号ack=u+1</text>
+   <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" stroke-width="0" id="svg_59" y="450" x="509" stroke="#000" fill="#000000">LAST_ACK</text>
+   <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" stroke-width="0" id="svg_60" y="494" x="39" stroke="#000" fill="#000000">TIME_WAIT</text>
+   <line id="svg_61" y2="523" x2="482" y1="529" x1="136" stroke="#000" fill="none"/>
+   <line id="svg_62" y2="524" x2="487" y1="512" x1="470" stroke="#000" fill="none"/>
+   <line id="svg_63" y2="521" x2="487" y1="535" x1="472" stroke="#000" fill="none"/>
+   <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" stroke-width="0" id="svg_64" y="517" x="164" stroke="#000" fill="#000000">SCK=1 seq=u+1 确认号ack=w+1</text>
+   <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" stroke-width="0" id="svg_65" y="530" x="44" stroke="#000" fill="#000000">CLOAS</text>
+   <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" stroke-width="0" id="svg_66" y="520" x="512" stroke="#000" fill="#000000">CLOSE</text>
+   <path stroke="#000" id="svg_67" d="m233.02554,254.97413l-101.91109,18.50173l101.92055,18.49828l37.07083,-6.7276l-64.86775,-11.77069l64.85427,-11.7707l-37.06681,-6.73103l0,0zm149.15477,0l-37.04398,6.72932l64.8545,11.77068l-64.8545,11.76925l37.04398,6.72756l101.93414,-18.49998l-101.93414,-18.49684z" fill="none"/>
+   <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="14" stroke-width="0" id="svg_68" y="278" x="278" stroke="#000" fill="#000000">数据传输</text>
+  </g>
+ </g>
+</svg>

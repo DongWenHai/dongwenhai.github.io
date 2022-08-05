@@ -7,8 +7,8 @@
         - css
     keywords: "优惠券凹槽制作技巧"
     description: '优惠券凹槽制作技巧'
-    cover: /images/css-skill-groove.png
-    top_img: /images/css-skill-groove.png
+    cover: /images/css-skill-groove.jpg
+    top_img: /images/css-skill-groove.jpg
 ---
 
 # css实用技巧之制作优惠券凹槽
